@@ -1,0 +1,49 @@
+.todo-container {
+  background: #f273f5;
+  width: 40vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+}
+
+.item {
+  border: 1px solid white;
+  height: 15px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.item button {
+  background: rgb(12, 124, 251);
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.create-item input[type='text'] {
+  width: 90%;
+  padding: 0.9em;
+  border-radius: 5px;
+}
+
+.delete-all {
+  width: 25%;
+  background: #f53b5a;
+  padding: 0.9em;
+  border-radius: 5px;
+}
+
+.input {
+  font-size: 15px;
+  font-weight: bold;
+}
