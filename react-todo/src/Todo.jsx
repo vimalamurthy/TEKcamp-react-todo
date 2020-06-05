@@ -9,7 +9,6 @@ function CreateItem({ addItem }) {
 
     if (value) {
       addItem(value);
-      alert(value);
       setValue('');
     }
   };
