@@ -36,7 +36,7 @@ function Item({ item, index, finishItem, deleteItem }) {
       >
         {item.title}
         <button onClick={() => deleteItem(index)}>X</button>
-        <button onClick={() => finishItem(index)}>Done</button>
+        <button onClick={() => finishItem(index)}>Mark as Complete</button>
       </div>
     );
 }
