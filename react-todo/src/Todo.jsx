@@ -86,7 +86,7 @@ function Todo() {
       </div>
       <div>
         <button className='delete-all' onClick={deleteAllItem}>
-          Delete All
+          CLEAR LIST
         </button>
       </div>
     </div>
