@@ -16,9 +16,10 @@
 }
 
 .item button {
-  background: rgb(12, 124, 251);
+  background: #2248b1;
   margin: 0px 5px;
   padding: 3px 10px;
+
   border-radius: 5px;
   border: none;
   cursor: pointer;
@@ -40,9 +41,9 @@ h1 {
 .delete-all {
   width: 35%;
   font-size: 20px;
-  background: #f53b5a;
+  background: #da0000;
   cursor: pointer;
-  padding: 0.9em;
+  padding-top: 0.3em;
   border-radius: 5px;
 }
 
