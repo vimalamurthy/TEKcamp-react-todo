@@ -6,8 +6,10 @@ function CreateItem({ addItem }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     if (value) {
       addItem(value);
+      alert(value);
       setValue('');
     }
   };
