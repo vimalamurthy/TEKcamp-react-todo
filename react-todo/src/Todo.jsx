@@ -69,7 +69,7 @@ function Todo() {
 
   return (
     <div className='todo-container'>
-      <h1>TO DO LIST</h1>
+      <h1>To Do List</h1>
       <div>
         {items.map((item, index) => (
           <Item
